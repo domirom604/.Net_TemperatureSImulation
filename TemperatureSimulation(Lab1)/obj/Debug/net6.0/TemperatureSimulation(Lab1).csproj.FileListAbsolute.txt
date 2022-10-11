@@ -1,0 +1,15 @@
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\bin\Debug\net6.0\TemperatureSimulation(Lab1).exe
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\bin\Debug\net6.0\TemperatureSimulation(Lab1).deps.json
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\bin\Debug\net6.0\TemperatureSimulation(Lab1).runtimeconfig.json
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\bin\Debug\net6.0\TemperatureSimulation(Lab1).dll
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\bin\Debug\net6.0\TemperatureSimulation(Lab1).pdb
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).csproj.AssemblyReference.cache
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).AssemblyInfoInputs.cache
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).AssemblyInfo.cs
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).csproj.CoreCompileInputs.cache
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).dll
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\refint\TemperatureSimulation(Lab1).dll
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).pdb
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\TemperatureSimulation(Lab1).genruntimeconfig.cache
+E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\TemperatureSimulation(Lab1)\obj\Debug\net6.0\ref\TemperatureSimulation(Lab1).dll
