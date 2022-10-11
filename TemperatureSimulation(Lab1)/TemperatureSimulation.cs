@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TemperatureSimulation_Lab1_
 {
-    public class TemperatureSimulation
+    class TemperatureSimulation: IGenerator
     {
-        List<double?> nTempValues = new List<double?>();
-        public double GetRandomNumber(double minimum, double maximum)
+        private List<double?> nTempValues = new List<double?>();
+        private double GetRandomNumber(double minimum, double maximum)
         {
             Random random = new Random();
             return random.NextDouble() * (maximum - minimum) + minimum;
@@ -37,6 +37,10 @@ namespace TemperatureSimulation_Lab1_
             {
                 nTempValues.Add(Random());
             }
+            return nTempValues;
+        }
+        public List<double?> GetData(int number)
+        {
             return nTempValues;
         }
 

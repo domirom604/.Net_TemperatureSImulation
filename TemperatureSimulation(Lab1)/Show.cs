@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace TemperatureSimulation_Lab1_
 {
-    internal class Show
+    class Show: IGenerator
     {
         TemperatureSimulation tempSim = new TemperatureSimulation();
-        public List<double?> listOfTemp = new List<double?>();
-        public Show()
-        {
-
-        }
-        public void showRandomNumber()
+        protected List<double?> listOfTemp = new List<double?>();
+        
+        protected void showRandomNumber()
         {
             var randomTempValue =tempSim.Random();
             Console.Write("Random number: " + randomTempValue.ToString());
             Console.WriteLine("");
         }
 
-        public void showList(int N)
+        protected void showList(int N)
         {
             var list = tempSim.generateNTemperature(N);
             listOfTemp = list;
@@ -33,5 +30,10 @@ namespace TemperatureSimulation_Lab1_
                 Console.WriteLine(res);
             }
         }
+        public List<double?> GetData(int number)
+        {
+            return listOfTemp;
+        }
+
     }
 }
