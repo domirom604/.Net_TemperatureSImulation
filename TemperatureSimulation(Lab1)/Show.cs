@@ -13,14 +13,14 @@ namespace TemperatureSimulation_Lab1_
         
         protected void showRandomNumber()
         {
-            var randomTempValue =tempSim.Random();
-            Console.Write("Random number: " + randomTempValue.ToString());
+            string randomTempValue = tempSim.GetData(1)[0].ToString();
+            Console.Write("Random number: " + randomTempValue);
             Console.WriteLine("");
         }
 
         protected void showList(int N)
         {
-            var list = tempSim.generateNTemperature(N);
+            var list = tempSim.GetData(N);
             listOfTemp = list;
             double? res = null;
             Console.WriteLine("List of random numbesr: ");

@@ -14,7 +14,6 @@ namespace TemperatureSimulation_Lab1_
             string inputString = Console.ReadLine();
             int N = 0;
             int.TryParse(inputString, out N);
-            //Show show = new Show();
             showRandomNumber();
             showList(N);
             FileOperations filOp = new FileOperations(listOfTemp);
@@ -22,6 +21,8 @@ namespace TemperatureSimulation_Lab1_
             //filOp.saveToFile();
             //filOp.readFile(6);
             filOp.serializationRead(false);
+            Operations Op = new Operations(4);
+
         }
 
     }

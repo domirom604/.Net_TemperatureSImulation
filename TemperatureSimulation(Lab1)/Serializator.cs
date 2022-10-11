@@ -11,7 +11,6 @@ namespace TemperatureSimulation_Lab1_
 {
     public class Serializator
     {
-        //private static BinaryFormatter _bin = new BinaryFormatter();
 
         public IList<double?> Deserialize(string a_fileName)
         {

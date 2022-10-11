@@ -14,7 +14,7 @@ namespace TemperatureSimulation_Lab1_
             Random random = new Random();
             return random.NextDouble() * (maximum - minimum) + minimum;
         }
-        public Nullable<double> Random()
+        private Nullable<double> Random()
         {
             Random randObj = new Random(1);
             Nullable<double> tempValue = null;
@@ -27,11 +27,11 @@ namespace TemperatureSimulation_Lab1_
 
             return tempValue;
         }
-        public Nullable<double> generateTemperature()
+        private Nullable<double> generateTemperature()
         {
             return Random();
         }
-        public List<double?> generateNTemperature(int N)
+        private List<double?> generateNTemperature(int N)
         {
             for(int i = 0; i < N; i++)
             {
@@ -41,6 +41,7 @@ namespace TemperatureSimulation_Lab1_
         }
         public List<double?> GetData(int number)
         {
+            generateNTemperature(number);
             return nTempValues;
         }
 

@@ -9,7 +9,7 @@ namespace TemperatureSimulation_Lab1_
 {
     public class FileOperations
     {
-         List<double?> listTosave = new List<double?>();
+        List<double?> listTosave = new List<double?>();
         public FileOperations(List<double?> listToSV)
         {
             listTosave = listToSV;
@@ -25,13 +25,14 @@ namespace TemperatureSimulation_Lab1_
             }
             Console.WriteLine("File save success");
         }
-        public void readFile(int numberOfLines)
+        public IEnumerable<string> readFile(int numberOfLines)
         {
             string fileName = @"E:\Users\dromanow\source\repos\TemperatureSimulation(Lab1)\plikDane.txt";
 
             IEnumerable<string> lines = File.ReadLines(fileName).Take(numberOfLines);
             //Console.WriteLine("ss");
             Console.WriteLine(String.Join(Environment.NewLine, lines));
+            return lines;
         }
         public void serializationSaveToFile()
         {
