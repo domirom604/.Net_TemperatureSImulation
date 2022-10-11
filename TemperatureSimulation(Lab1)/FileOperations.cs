@@ -9,7 +9,7 @@ namespace TemperatureSimulation_Lab1_
 {
     public class FileOperations
     {
-        List<double?> listTosave = new List<double?>();
+         List<double?> listTosave = new List<double?>();
         public FileOperations(List<double?> listToSV)
         {
             listTosave = listToSV;
